@@ -17,7 +17,11 @@ def main(obs_data, g_truth):
     obs = set_classifier(obs)
 
     # eliminate the noise rows with radar_ID < -1 remove
-    
+
+    # Calculate Radar position
+
+    # Compute computed position error iff obs_data == 1
+
     breakpoint()
     print("hi")
 
