@@ -22,7 +22,7 @@ def set_classifier(obs):
     X = scaler.fit_transform(features)
 
     # DBSCAN clustering
-    model = DBSCAN(eps=0.6, min_samples=10)
+    model = DBSCAN(eps=0.37, min_samples=10)
 
     radar_id = model.fit_predict(X)
 
